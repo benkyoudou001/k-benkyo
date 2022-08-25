@@ -1,0 +1,88 @@
+
+*{
+	margin:0;
+	padding:0;
+	border:0;
+	vertical-align: baseline;
+}
+
+p.txt {
+	font-size: 80%;
+	clear: both;
+	text-align: center;
+}
+h1 {
+	font-size: 131%;
+	text-align: center;
+	margin-top: 10px;
+}
+.clear {
+	clear: both;
+}
+
+#container {
+	width: 474px;
+	margin: 5px auto;
+}
+#banner {
+	border: 0px solid #CCCCCC;
+	margin-bottom: 5px;
+}
+#banner ul {
+	list-style: none;
+	position: relative;
+	margin-left: 0px;
+	overflow: hidden;
+	width:468px;
+	height: 60px;
+}
+#banner ul li {
+	float: left;
+	width: 468px;
+	position: absolute;
+}
+div#pagenation {
+   position: relative;
+   overflow: hidden;
+   top: -23px;
+}
+
+div#pagenation ul {
+	position:relative;
+	left:50%;
+	float:left;
+	list-style: none;
+}
+div#pagenation li {
+   position:relative;
+   left:-50%;
+   float:left;
+   margin: 0 2px;
+   
+}
+div#pagenation li a {
+	width:12px;
+	height:12px;
+	overflow:hidden;
+	display:block;
+	background-image:url(http://www.rakuten.ne.jp/gold/benkyo/banner/img/pagenation.gif);
+	background-position:0 0;
+}
+div#pagenation li.active a,
+div#pagenation li a:hover {
+	background-position:0 12px;
+}
+div#pagenation li a img {
+	visibility:hidden;
+	display: none;
+}
+#btn-prev {
+	position: relative;
+	left: -30px;
+	top: -45px;
+}
+#btn-next {
+	position: relative;
+	left:455px;
+	top: -45px;
+}
