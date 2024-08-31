@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="ja">
-<!--2022/08/18　お知らせ更新 / 野崎-->
+
+<!--2024/08/27 　オリジナル商品変更 / 野崎-->
+<!--2024/08/26 　2%offクーポン 非表示 / 金澤-->
+
 
 <head>
 	<meta charset="UTF-8">
@@ -101,6 +104,7 @@
 </head>
 
 <body>
+	<script src="js/lazyload.min.js"></script>
 	<header>
 		<div class="menu-container  clearfix">
 			<div class="flL pc"><a href="https://www.rakuten.ne.jp/gold/k-benkyo/"><span class="companylogo"
@@ -157,8 +161,11 @@
 						<a
 							href="https://ask.step.rakuten.co.jp/rms/mall/pa/ask/vc?__event=PA02_000_001&ask_text=%C5%B9%C4%B9%A4%CB%BC%C1%CC%E4%A4%B9%A4%EB&shopurl=k-benkyo&shop_bid=284077&shop_name=%A5%AD%A5%C3%A5%C1%A5%F3%CD%D1%C9%CA%A4%CA%A4%E9%CA%D9%B6%AF%C6%B2&myshop=0">お問合せ</a>
 					</li>
-					<li>
-						<a href="https://www.rakuten.co.jp/" target=”_blank”>楽天市場</a>
+					<li class="moll_links_container">
+						<span class="moll_links">
+							<a href="https://www.rakuten.co.jp/" target=”_blank”><img src="images/link_rakuten.svg" class="link_icon" alt="" title="楽天TOP"><span class="sp">楽天TOP</span></a>
+							<a href="https://basket.step.rakuten.co.jp/rms/mall/bs/cart/" target=”_blank”><img src="images/link_cart.svg" class="link_icon" alt="" title="お買い物カゴ"><span class="sp">お買い物カゴ</span></a>
+						</span>
 					</li>
 					<li id="no_bg">
 						<form method="get" accept-charset="Shift_JIS"
@@ -196,46 +203,33 @@
 	<div id="hero">
 		<div class="slider-pro" id="sliderTop">
 			<div class="sp-slides">
-				<!-- Slide 30  シャイニーシリカ -->
+
+				<!-- Slide 46  ヒフールU -->
 				<div class="sp-slide">
-					<a href="https://search.rakuten.co.jp/search/mall/4562216261232/?sid=284077"><img class="sp-image"
-							src="https://image.rakuten.co.jp/k-benkyo/cabinet/04360310/img/4562216261232bnr.jpg" /></a>
+					<a href="https://item.rakuten.co.jp/k-benkyo/4535653002911/"><img class="sp-image"
+							src="./images/slide46.jpg?20240725" /></a>
 				</div>
 
-				<!-- Slide 30  シャイニーシリカ -->
+				<!-- Slide 15  防風通聖散顆粒 -->
 				<div class="sp-slide">
-					<a href="https://item.rakuten.co.jp/k-benkyo/4580392000896mail/"><img class="sp-image"
-							src="https://image.rakuten.co.jp/k-benkyo/cabinet/04360310/img/4580392000896bnr.jpg" /></a>
+					<a href="https://item.rakuten.co.jp/k-benkyo/4987334221966/"><img class="sp-image" src="./images/slide15.jpg" /></a>
 				</div>
 
-				<!-- Slide 04 UVケア -->
+				<!-- Slide 4-2  UVケア -->
 				<div class="sp-slide">
-					<a href="https://item.rakuten.co.jp/k-benkyo/c/0000003720/"><img class="sp-image"
-							src="images/slide9.jpg" /></a>
+					<a href="https://item.rakuten.co.jp/k-benkyo/c/0000003883/?s=4&i=1#risFil"><img class="sp-image" src="./images/slide4-2.jpg" /></a>
 				</div>
 
-				<!-- Slide 04 UVケア -->
+				<!-- Slide 35  NMN -->
 				<div class="sp-slide">
-					<a href="https://item.rakuten.co.jp/k-benkyo/c/0000003773/"><img class="sp-image"
-							src="images/slide8.jpg" /></a>
+					<a href="https://item.rakuten.co.jp/k-benkyo/4580392000933mail/"><img class="sp-image" src="https://image.rakuten.co.jp/benkyo/cabinet/02562713/images/4580392000933w824.jpg" /></a>
 				</div>
 
-				<!-- Slide 04 UVケア -->
+				<!-- Slide  カルピス由来の乳酸菌-->
 				<div class="sp-slide">
-					<a href="https://item.rakuten.co.jp/k-benkyo/c/0000003883/"><img class="sp-image"
-							src="images/slide4.jpg" /></a>
+					<a href="https://search.rakuten.co.jp/search/mall/%E3%82%AB%E3%83%AB%E3%83%94%E3%82%B9%E7%94%B1%E6%9D%A5/?sid=284077"><img class="sp-image" src="./images/slide45.jpg" /></a>
 				</div>
 
-				<!-- Slide 30 防風通聖散 -->
-				<div class="sp-slide">
-					<a href="https://search.rakuten.co.jp/search/mall/4987334202415/?sid=284077"><img class="sp-image"
-							src="images/slide30.jpg" /></a>
-				</div>
-
-				<!-- Slide 17
-				<div class="sp-slide">
-					<a href="https://item.rakuten.co.jp/k-benkyo/c/0000004203/"><img class="sp-image" src="images/slide17.jpg" /></a>
-				</div>-->
 			</div>
 		</div>
 	</div>
@@ -262,43 +256,26 @@
 			<h2>今月のイチオシ商品<span>THIS MONTH RECOMMEND</span></h2>
 		</div>
 		<ul class="rank_slider">
-			<li><span class="hot">HOT!</span><a href="https://item.rakuten.co.jp/k-benkyo/4562219692668/"
-					target="_top"><img
-						src="https://shop.r10s.jp/benkyo/cabinet/lp/4562219692668/4562219692668img.jpg"></a><a
-					href="https://item.rakuten.co.jp/k-benkyo/4562219692668/" target="_top"><span>シナモンアップルバター
-						130g</span></a>
+			<li><span class="hot">HOT!</span><a href="https://item.rakuten.co.jp/k-benkyo/4580392000254/" target="_top"><img class="lazyload" data-src="https://shop.r10s.jp/k-benkyo/cabinet/yupake3/4580392000254.jpg"></a><a
+				href="https://item.rakuten.co.jp/k-benkyo/4580392000254/" target="_top"><span>勉強堂 デオドラントクリーム 50g 医薬部外品</span></a>
 			</li>
-			<li><span class="hot">HOT!</span><a href="https://item.rakuten.co.jp/k-benkyo/4580392000858mail/"
-					target="_top"><img
-						src="https://shop.r10s.jp/benkyo/cabinet/lp/4580392000858/4580392000858img5.jpg"></a><a
-					href="https://item.rakuten.co.jp/k-benkyo/4580392000858mail/" target="_top"><span>いちごミルクの素
-						30ml×10包</span></a>
+			<li><span class="hot">HOT!</span><a href="https://item.rakuten.co.jp/k-benkyo/4903320160439/" target="_top"><img class="lazyload" data-src="https://shop.r10s.jp/k-benkyo/cabinet/shohin14/4903320160439.jpg"></a><a
+				href="https://item.rakuten.co.jp/k-benkyo/4903320160439/" target="_top"><span>バルサン ダニーノ ダニとりシート 24枚入</span></a>
 			</li>
-			<li><a href="https://item.rakuten.co.jp/k-benkyo/4580392000896mail/" target="_top"><img
-						src="https://shop.r10s.jp/benkyo/cabinet/lp/4580392000896/4580392000896.jpg"></a><a
-					href="https://item.rakuten.co.jp/k-benkyo/4580392000896mail/" target="_top"><span>フルーツ酵素青汁＋ソイプロテイン
-						3g×30包</span></a>
+			<li><span class="hot">HOT!</span><a href="https://item.rakuten.co.jp/k-benkyo/4987334221966/" target="_top"><img class="lazyload" data-src="https://shop.r10s.jp/k-benkyo/cabinet/lp/4987334221966/4987334221966.jpg"></a><a
+				href="https://item.rakuten.co.jp/k-benkyo/4987334221966/" target="_top"><span>【第2類医薬品】本草 防風通聖散エキス顆粒-H 2.5g×28包</span></a>
 			</li>
-			<li>
-				<!--<span class="hot">HOT!</span>--><a href="https://item.rakuten.co.jp/k-benkyo/4562104352264set48/"
-					target="_top"><img src="https://shop.r10s.jp/benkyo/cabinet/shohin127/4562104352264set48.jpg"></a><a
-					href="https://item.rakuten.co.jp/k-benkyo/4562104352264set48/" target="_top"><span>美いね シリカシリカ(シリカ水)
-						500ml×48本セット</span></a>
+			<li><a href="https://item.rakuten.co.jp/k-benkyo/644629/#644629" target="_top"><img class="lazyload" data-src="https://image.rakuten.co.jp/benkyo/cabinet/fix/4987035140801w750.jpg"></a><a
+				href="https://item.rakuten.co.jp/k-benkyo/644629/#644629" target="_top"><span>カロリーメイト ゼリー 215g×24個</span></a>
 			</li>
-			<li><a href="https://item.rakuten.co.jp/k-benkyo/4595121543018/" target="_top"><img
-						src="https://shop.r10s.jp/benkyo/cabinet/shohin132/4595121543018.jpg"></a><a
-					href="https://item.rakuten.co.jp/k-benkyo/4595121543018/" target="_top"><span>IgA 抗体マスク (ふつうサイズ)
-						20枚入</span></a>
+			<li><a href="https://item.rakuten.co.jp/k-benkyo/4595987801048/" target="_top"><img class="lazyload" data-src="https://shop.r10s.jp/k-benkyo/cabinet/lp/4595987801048/4595987801048tmn12.jpg"></a><a
+				href="https://item.rakuten.co.jp/k-benkyo/4595987801048/" target="_top"><span>ピュアラクティス マイルド 10ml×30包</span></a>
 			</li>
-			<li><a href="https://item.rakuten.co.jp/k-benkyo/4987334201661set2/" target="_top"><img
-						src="https://shop.r10s.jp/benkyo/cabinet/lp/4987334201661/4987334201661set2.jpg"></a><a
-					href="https://item.rakuten.co.jp/k-benkyo/4987334201661set2/" target="_top"><span>【第2類医薬品】本草
-						補中益気湯エキス錠-H 144錠</span></a>
+			<li><a href="https://item.rakuten.co.jp/k-benkyo/4987426002138mail/" target="_top"><img class="lazyload" data-src="https://shop.r10s.jp/k-benkyo/cabinet/shohin13/4987426002138mail.jpg"></a><a
+				href="https://item.rakuten.co.jp/k-benkyo/4987426002138mail/" target="_top"><span>【第（2）類医薬品】 ムヒアルファEX 15g</span></a>
 			</li>
-			<li><a href="https://item.rakuten.co.jp/k-benkyo/4987030180390/" target="_top"><img
-						src="https://shop.r10s.jp/benkyo/cabinet/shohin132/4987030180390.jpg"></a><a
-					href="https://item.rakuten.co.jp/k-benkyo/4987030180390/" target="_top"><span>ピュレア クリアエッセンスマスク
-						7枚入×3個セット</span></a>
+			<li><a href="https://item.rakuten.co.jp/k-benkyo/4535653001082set3mail/" target="_top"><img class="lazyload" data-src="https://shop.r10s.jp/k-benkyo/cabinet/04394394/06801448/4535653001082set3.jpg"></a><a
+				href="https://item.rakuten.co.jp/k-benkyo/4535653001082set3mail/" target="_top"><span>【第（2）類医薬品】ヒフールV8 水虫クリーム 30g×3個セット</span></a>
 			</li>
 		</ul>
 	</section>
@@ -308,18 +285,16 @@
 			<h2>■お知らせ</h2>
 		</div>
 		<ul class="ticker">
-			<!-- 遅延のお知らせ等 
+			<!-- 遅延のお知らせ等
 			<li>
-				<a href="https://www.rakuten.co.jp/k-benkyo/info.html">
-					<img src="https://image.rakuten.co.jp/k-benkyo/cabinet/toppage/2022/20220808notice1.jpg" alt=""
-						width="100%" class="pc">
-					<img src="https://image.rakuten.co.jp/k-benkyo/cabinet/toppage/2022/20220808notice1_sp.jpg" alt=""
-						width="100%" class="sp">
+				<a href="https://www.rakuten.co.jp/k-benkyo/info.html" target="_blank">
+					<img src="https://image.rakuten.co.jp/benkyo/cabinet/top_banner/2024/20240807_notice_pc.jpg" alt="" width="100%">
 				</a>
 			</li>-->
+			<!-- お知らせなし-->
 			<li>
-				※現在、お知らせはありません。
-			</li><!---->
+				<span style="color:#808080">※現在お知らせはありません。</span>
+			</li>
 		</ul>
 	</section>
 
@@ -337,33 +312,26 @@
 						<h2>新着商品<span>NEW ARRIVAL</span></h2>
 					</div>
 					<ul class="recommend_slider">
-						<li><a href="https://item.rakuten.co.jp/k-benkyo/4987030900080/" target="_top"><img
-									src="https://shop.r10s.jp/benkyo/cabinet/shohin132/4987030900080.jpg"></a><a
-								href="https://item.rakuten.co.jp/k-benkyo/4987030900080/"><span>ブレインアシスト イチョウ葉エキスα
-									60粒</span></a>
+						<li><a href="https://item.rakuten.co.jp/k-benkyo/4987977000485teikei/" target="_top"><img class="lazyload" data-src="https://shop.r10s.jp/k-benkyo/cabinet/shohin15/4987977000485teikei.jpg"></a><a
+							href="https://item.rakuten.co.jp/k-benkyo/4987977000485teikei/"><span>【第(2)類医薬品】新コンタック総合かぜ薬エース(36カプセル) </span></a>
 						</li>
-						<li><a href="https://item.rakuten.co.jp/k-benkyo/4987030197275/" target="_top"><img
-									src="https://shop.r10s.jp/benkyo/cabinet/shohin132/4987030197275.jpg"></a><a
-								href="https://item.rakuten.co.jp/k-benkyo/4987030197275/"><span>やつめホルゲンExII
-									90粒</span></a>
+						<li><a href="https://item.rakuten.co.jp/k-benkyo/4987475119962/" target="_top"><img class="lazyload" data-src="https://shop.r10s.jp/k-benkyo/cabinet/shohin15/4987475119962.jpg"></a><a
+							href="https://item.rakuten.co.jp/k-benkyo/4987475119962/"><span>【第2類医薬品】ロキエフェクトLXテープα 7枚</span></a>
 						</li>
-						<li><a href="https://item.rakuten.co.jp/k-benkyo/4976652016965mail/" target="_top"><img
-									src="https://shop.r10s.jp/benkyo/cabinet/shohin132/4976652016965mail.jpg"></a><a
-								href="https://item.rakuten.co.jp/k-benkyo/4976652016965mail/"><span>CICAサプリ 120錠</span></a>
+						<li><a href="https://item.rakuten.co.jp/k-benkyo/4954007017348/" target="_top"><img class="lazyload" data-src="https://shop.r10s.jp/k-benkyo/cabinet/shohin15/4954007017348.jpg"></a><a
+							href="https://item.rakuten.co.jp/k-benkyo/4954007017348/"><span>健康きらり カキ肉＆亜鉛 60粒</span></a>
 						</li>
-						<li><a href="https://item.rakuten.co.jp/k-benkyo/4987030197794/" target="_top"><img
-									src="https://shop.r10s.jp/benkyo/cabinet/shohin132/4987030197794.jpg"></a><a
-								href="https://item.rakuten.co.jp/k-benkyo/4987030197794/"><span>アバンタイム トーンショットクリーム
-									5g</span></a>
+						<li><a href="https://item.rakuten.co.jp/k-benkyo/4901922713183/" target="_top"><img class="lazyload" data-src="https://shop.r10s.jp/k-benkyo/cabinet/shohin15/4901922713183.jpg"></a><a
+							href="https://item.rakuten.co.jp/k-benkyo/4901922713183/"><span>大丸本舗 塩プラスクエン酸入ぶどう糖 2g×20粒</span></a>
 						</li>
-						<li><a href="https://item.rakuten.co.jp/k-benkyo/4987316030654set5/"><img
-									src="https://shop.r10s.jp/benkyo/cabinet/shohin132/4987316030654set5.jpg"></a><a
-								href="https://item.rakuten.co.jp/k-benkyo/4987316030654set5/"><span>【第2類医薬品】ユンケルファンティ
-									50ml×5本セット</span></a>
+						<li><a href="https://item.rakuten.co.jp/k-benkyo/4571424999509/" target="_top"><img class="lazyload" data-src="https://shop.r10s.jp/k-benkyo/cabinet/shohin15/4571424999509.jpg"></a><a
+							href="https://item.rakuten.co.jp/k-benkyo/4571424999509/"><span>ヒルズラボ 全粒粉ダイエットクッキー クランベリー 45g</span></a>
 						</li>
-						<li><a href="https://item.rakuten.co.jp/k-benkyo/4987030196667/"><img
-									src="https://shop.r10s.jp/benkyo/cabinet/shohin132/4987030196667.jpg"></a><a
-								href="https://item.rakuten.co.jp/k-benkyo/4987030196667/"><span>大木製薬のパパーチュアブル ケフィアCa＋D 120粒</span></a>
+						<li><a href="https://item.rakuten.co.jp/k-benkyo/4987192003247/" target="_top"><img class="lazyload" data-src="https://shop.r10s.jp/k-benkyo/cabinet/shohin15/4987192003247.jpg"></a><a
+							href="https://item.rakuten.co.jp/k-benkyo/4987192003247/"><span>ヒヤドット ママボディケアミルク 500ml</span></a>
+						</li>
+						<li><a href="https://item.rakuten.co.jp/k-benkyo/4968909059955/" target="_top"><img class="lazyload" data-src="https://shop.r10s.jp/k-benkyo/cabinet/shohin14/4968909059955.jpg"></a><a
+							href="https://item.rakuten.co.jp/k-benkyo/4968909059955/"><span>カメムシ忌避剤 カメムシクリン(250mL)</span></a>
 						</li>
 					</ul>
 				</section>
@@ -384,7 +352,7 @@
 					<ul class="flexbox items">
 						<li class="sm5 org">
 							<a href="https://item.rakuten.co.jp/k-benkyo/4987402004446mail/#kago"><img
-									src="https://image.rakuten.co.jp/k-benkyo/cabinet/shohin103/4987402004446mail.jpg"
+								class="lazyload" data-src="https://image.rakuten.co.jp/k-benkyo/cabinet/shohin103/4987402004446mail.jpg"
 									alt=""></a>
 							<a href="https://item.rakuten.co.jp/k-benkyo/4987402004446mail/#kago">
 								<p>【第2類医薬品】フェキソフェナジン錠 RX 60錠</p>
@@ -392,7 +360,7 @@
 						</li>
 						<li class="sm5 org">
 							<a href="https://item.rakuten.co.jp/k-benkyo/4987300058619set2/#4987300058619set2"><img
-									src="https://image.rakuten.co.jp/k-benkyo/cabinet/shohin103/4987300058619set2.jpg"
+								class="lazyload" data-src="https://image.rakuten.co.jp/k-benkyo/cabinet/shohin103/4987300058619set2.jpg"
 									alt=""></a>
 							<a href="https://item.rakuten.co.jp/k-benkyo/4987300058619set2/#4987300058619set2">
 								<p>【第3類医薬品】 ハイチオールCホワイティア 120錠 ×2</p>
@@ -400,30 +368,30 @@
 						</li>
 						<li class="sm5 org">
 							<a href="https://item.rakuten.co.jp/k-benkyo/4987286312712set40/#kago"><img
-									src="https://image.rakuten.co.jp/k-benkyo/cabinet/shohin101/4987286312712set40.jpg"
+								class="lazyload" data-src="https://image.rakuten.co.jp/k-benkyo/cabinet/shohin101/4987286312712set40.jpg"
 									alt=""></a>
 							<a href="https://item.rakuten.co.jp/k-benkyo/4987286312712set40/#kago">
 								<p>【第3類医薬品】 健栄製薬 精製水 500mL×40本セット</p>
 							</a>
 						</li>
 						<li class="sm5 org">
-							<a href="https://item.rakuten.co.jp/k-benkyo/4903301271994teikei/#kago"><img
-									src="https://image.rakuten.co.jp/k-benkyo/cabinet/shohin103/4903301271994teikei.jpg"
+							<a href="https://item.rakuten.co.jp/k-benkyo/4903301316039teikei/#kago"><img
+								class="lazyload" data-src="https://shop.r10s.jp/k-benkyo/cabinet/shohin205/4903301316039teikei.jpg"
 									alt=""></a>
-							<a href="https://item.rakuten.co.jp/k-benkyo/4903301271994teikei/#kago">
+							<a href="https://item.rakuten.co.jp/k-benkyo/4903301316039teikei/#kago">
 								<p>【第(2)類医薬品】 バファリン プレミアム 60錠</p>
 							</a>
 						</li>
 						<li class="sm5 org">
 							<a href="https://item.rakuten.co.jp/k-benkyo/10039714mail/#kago"><img
-									src="https://image.rakuten.co.jp/k-benkyo/cabinet/08/10039714mail.jpg" alt=""></a>
+								class="lazyload" data-src="https://image.rakuten.co.jp/k-benkyo/cabinet/08/10039714mail.jpg" alt=""></a>
 							<a href="https://item.rakuten.co.jp/k-benkyo/10039714mail/#kago">
 								<p>【第(2)類医薬品】 パブロン鼻炎カプセルSα 48カプセル</p>
 							</a>
 						</li>
 						<li class="sm5 org">
 							<a href="https://item.rakuten.co.jp/k-benkyo/4987343084910set5/#kago"><img
-									src="https://image.rakuten.co.jp/k-benkyo/cabinet/shohin125/4987343084910.jpg"
+								class="lazyload" data-src="https://image.rakuten.co.jp/k-benkyo/cabinet/shohin125/4987343084910.jpg"
 									alt=""></a>
 							<a href="https://item.rakuten.co.jp/k-benkyo/4987343084910set5/#kago">
 								<p>【第1類医薬品】 ロキソプロフェン錠 「クニヒロ」 12錠 ×5個セット</p>
@@ -431,7 +399,7 @@
 						</li>
 						<li class="sm5 org">
 							<a href="https://item.rakuten.co.jp/k-benkyo/10006469yumail/#kago"><img
-									src="https://image.rakuten.co.jp/k-benkyo/cabinet/yupake3/10006469yumail.jpg"
+								class="lazyload" data-src="https://image.rakuten.co.jp/k-benkyo/cabinet/yupake3/10006469yumail.jpg"
 									alt=""></a>
 							<a href="https://item.rakuten.co.jp/k-benkyo/10006469yumail/#kago">
 								<p>【第2類医薬品】 ペアアクネクリームW 24g</p>
@@ -440,7 +408,7 @@
 
 						<li class="sm5 org">
 							<a href="https://item.rakuten.co.jp/k-benkyo/4987128257829mail/#kago"><img
-									src="https://image.rakuten.co.jp/k-benkyo/cabinet/yupake1/4987128257829mail.jpg"
+								class="lazyload" data-src="https://image.rakuten.co.jp/k-benkyo/cabinet/yupake1/4987128257829mail.jpg"
 									alt=""></a>
 							<a href="https://item.rakuten.co.jp/k-benkyo/4987128257829mail/#kago">
 								<p>【第1類医薬品】 オキナゾールＬ100 6錠</p>
@@ -448,7 +416,7 @@
 						</li>
 						<li class="sm5 org">
 							<a href="https://item.rakuten.co.jp/k-benkyo/vitatoreru3set/#kago"><img
-									src="https://image.rakuten.co.jp/k-benkyo/cabinet/04394394/06352994/imgrc0077109258.jpg"
+								class="lazyload" data-src="https://image.rakuten.co.jp/k-benkyo/cabinet/04394394/06352994/imgrc0077109258.jpg"
 									alt=""></a>
 							<a href="https://item.rakuten.co.jp/k-benkyo/vitatoreru3set/#kago">
 								<p>【第3類医薬品】 ビタトレールEXP 360錠×3セット</p>
@@ -456,7 +424,7 @@
 						</li>
 						<li class="sm5 org">
 							<a href="https://item.rakuten.co.jp/k-benkyo/4987306068339/#4987306068339"><img
-									src="https://image.rakuten.co.jp/k-benkyo/cabinet/shohin118/4987306068339.jpg"
+								class="lazyload" data-src="https://image.rakuten.co.jp/k-benkyo/cabinet/shohin118/4987306068339.jpg"
 									alt=""></a>
 							<a href="https://item.rakuten.co.jp/k-benkyo/4987306068339/#4987306068339">
 								<p>【第1類医薬品】 リアップリジェンヌ 60ml</p>
@@ -465,92 +433,74 @@
 					</ul>
 
 					<div class="title3 clearfix">
-						<h3>その他オススメ商品</h3>
+						<h3>人気の漢方薬</h3>
 						<!--<a href=""><span class="btn">→ more item</span></a>-->
 					</div>
 					<ul class="flexbox items">
 						<li class="sm5 org">
-							<a href="https://search.rakuten.co.jp/search/mall/4987210504206/?sid=284077"><img
-									src="https://image.rakuten.co.jp/k-benkyo/cabinet/14/4987210504206.jpg" alt=""></a>
-							<a href="https://search.rakuten.co.jp/search/mall/4987210504206/?sid=284077">
-								<p>【第2類医薬品】 ネオ小町錠 270錠</p>
+							<a href="https://search.rakuten.co.jp/search/mall/4987334202415/?sid=284077"><img class="lazyload" data-src="https://image.rakuten.co.jp/benkyo/cabinet/lp/4987334202415/4987334202415mail.jpg" alt=""></a>
+							<a href="https://search.rakuten.co.jp/search/mall/4987334202415/?sid=284077">
+								<p>【第2類医薬品】 本草 防風通聖散エキス錠-H 180錠</p>
 							</a>
 						</li>
 						<li class="sm5 org">
-							<a href="https://search.rakuten.co.jp/search/mall/4987334201661/?sid=284077"><img
-									src="https://image.rakuten.co.jp/k-benkyo/cabinet/lp/4987334201661/4987334201661.jpg"
-									alt=""></a>
+							<a href="https://search.rakuten.co.jp/search/mall/4987334221928/?sid=284077"><img class="lazyload" data-src="https://image.rakuten.co.jp/benkyo/cabinet/lp/4987334221928/4987334221928.jpg" alt=""></a>
+							<a href="https://search.rakuten.co.jp/search/mall/4987334221928/?sid=284077">
+								<p>【第2類医薬品】 本草 桂枝茯苓丸料エキス顆粒-H 2.5g×24包</p>
+							</a>
+						</li>
+						<li class="sm5 org">
+							<a href="https://search.rakuten.co.jp/search/mall/4975031003640/?sid=284077"><img class="lazyload" data-src="https://image.rakuten.co.jp/benkyo/cabinet/lp/4975031003640/4975031003640.jpg" alt=""></a>
+							<a href="https://search.rakuten.co.jp/search/mall/4975031003640/?sid=284077">
+								<p>【第2類医薬品】桔梗湯エキス顆粒S 1.5g×30包</p>
+							</a>
+						</li>
+						<li class="sm5 org">
+							<a href="https://search.rakuten.co.jp/search/mall/%E8%8A%8D%E8%96%AC%E7%94%98%E8%8D%89%E6%B9%AF+2.5g%C3%9724%E5%8C%85/?sid=284077"><img class="lazyload" data-src="https://image.rakuten.co.jp/benkyo/cabinet/lp/4987334221850/new/4987334221881.jpg" alt=""></a>
+							<a href="https://search.rakuten.co.jp/search/mall/%E8%8A%8D%E8%96%AC%E7%94%98%E8%8D%89%E6%B9%AF+2.5g%C3%9724%E5%8C%85/?sid=284077">
+								<p>【第2類医薬品】芍薬甘草湯 2.5g×24包</p>
+							</a>
+						</li>
+						<li class="sm5 org">
+							<a href="https://search.rakuten.co.jp/search/mall/4987334221898/?sid=284077"><img class="lazyload" data-src="https://image.rakuten.co.jp/benkyo/cabinet/lp/4987334221898/_4987334221898b.jpg" alt=""></a>
+							<a href="https://search.rakuten.co.jp/search/mall/4987334221898/?sid=284077">
+								<p>【第2類医薬品】当帰芍薬散料エキス顆粒 2.5g×24包</p>
+							</a>
+						</li>
+						<li class="sm5 org">
+							<a href="https://search.rakuten.co.jp/search/mall/%E9%A0%BB%E5%B0%BF+%E8%96%AC+%E5%85%AB%E5%91%B3%E5%9C%B0%E9%BB%84%E4%B8%B8+%E5%8B%89%E5%BC%B7%E5%A0%82+2%EF%BC%8E5g+24%E5%8C%85/?sid=284077"><img
+								class="lazyload" data-src="https://image.rakuten.co.jp/benkyo/cabinet/04412013/hachimi/imgrc0089322829.jpg" alt=""></a>
+							<a href="https://search.rakuten.co.jp/search/mall/%E9%A0%BB%E5%B0%BF+%E8%96%AC+%E5%85%AB%E5%91%B3%E5%9C%B0%E9%BB%84%E4%B8%B8+%E5%8B%89%E5%BC%B7%E5%A0%82+2%EF%BC%8E5g+24%E5%8C%85/?sid=284077">
+								<p>【第2類医薬品】八味地黄丸エキス顆粒 2.5g×24包</p>
+							</a>
+						</li>
+						<li class="sm5 org">
+							<a href="https://search.rakuten.co.jp/search/mall/4987397006296/?sid=284077"><img class="lazyload" data-src="https://shop.r10s.jp/k-benkyo/cabinet/lp/4987397006296/4987397006296.jpg" alt=""></a>
+							<a href="https://search.rakuten.co.jp/search/mall/4987397006296/?sid=284077">
+								<p>【第2類医薬品】てんぐ五苓散(顆) 1.6g×30包</p>
+							</a>
+						</li>
+						<li class="sm5 org">
+							<a href="https://search.rakuten.co.jp/search/mall/4987334201661/?sid=284077"><img class="lazyload" data-src="https://shop.r10s.jp/benkyo/cabinet/lp/4987334201661/4987334201661.jpg" alt=""></a>
 							<a href="https://search.rakuten.co.jp/search/mall/4987334201661/?sid=284077">
 								<p>【第2類医薬品】本草 補中益気湯エキス錠-H 144錠 (12日分)</p>
 							</a>
 						</li>
 						<li class="sm5 org">
-							<a href="https://search.rakuten.co.jp/search/mall/4987334221904/?sid=284077"><img
-									src="https://image.rakuten.co.jp/k-benkyo/cabinet/lp/4987334221904/4987334221904.jpg"
-									alt=""></a>
-							<a href="https://search.rakuten.co.jp/search/mall/4987334221904/?sid=284077">
-								<p>【第2類医薬品】本草 麦門冬湯エキス顆粒 3g×9包</p>
+							<a href="https://search.rakuten.co.jp/search/mall/4987334201647/?sid=284077"><img class="lazyload" data-src="https://shop.r10s.jp/benkyo/cabinet/00829059/4987334201647.jpg" alt=""></a>
+							<a href="https://search.rakuten.co.jp/search/mall/4987334201647/?sid=284077">
+								<p>【第2類医薬品】 本草製薬 大柴胡湯エキス錠-H 180錠</p>
 							</a>
 						</li>
 						<li class="sm5 org">
-							<a href="https://search.rakuten.co.jp/search/mall/4580628145032/?sid=284077"><img
-									src="https://image.rakuten.co.jp/k-benkyo/cabinet/23/4580628145032.jpg" alt=""></a>
-							<a href="https://search.rakuten.co.jp/search/mall/4580628145032/?sid=284077">
-								<p>【第3類医薬品】 ビタトレールホワイトEX 120錠</p>
-							</a>
-						</li>
-						<li class="sm5 org">
-							<a href="https://search.rakuten.co.jp/search/mall/4987334202088/?sid=284077"><img
-									src="https://image.rakuten.co.jp/k-benkyo/cabinet/fix/mg_4987334202088_fix.jpg"
-									alt=""></a>
-							<a href="https://search.rakuten.co.jp/search/mall/4987334202088/?sid=284077">
-								<p>【第3類医薬品】 本草 ヨクイニン錠S 540錠</p>
-							</a>
-						</li>
-						<li class="sm5 org">
-							<a href="https://item.rakuten.co.jp/k-benkyo/4987415070742mail/"><img
-									src="https://image.rakuten.co.jp/k-benkyo/cabinet/08/4987415070742mail.jpg"
-									alt="https://item.rakuten.co.jp/k-benkyo/4987415070742mail/"></a>
-							<a href="">
-								<p>資生堂 イハダ 薬用 バーム 20g</p>
-							</a>
-						</li>
-						<li class="sm5 org">
-							<a href="https://item.rakuten.co.jp/k-benkyo/4987210322091/"><img
-									src="https://image.rakuten.co.jp/k-benkyo/cabinet/shohin114/4987210322091.jpg"
-									alt=""></a>
-							<a href="https://item.rakuten.co.jp/k-benkyo/4987210322091/">
-								<p>【第2類医薬品】 摩耶字散 まやじさん 10包</p>
-							</a>
-						</li>
-						<li class="sm5 org">
-							<a href="https://search.rakuten.co.jp/search/mall/4987210329113/?sid=284077"><img
-									src="https://image.rakuten.co.jp/k-benkyo/cabinet/lp/498721032911/4987210329113.jpg"
-									alt=""></a>
-							<a href="https://search.rakuten.co.jp/search/mall/4987210329113/?sid=284077">
-								<p>【第(2)類医薬品】雲仙散 16包</p>
-							</a>
-						</li>
-						<li class="sm5 org">
-							<a href="https://item.rakuten.co.jp/k-benkyo/4987210317066/"><img
-									src="https://image.rakuten.co.jp/k-benkyo/cabinet/shohin126/4987210317066.jpg"
-									alt=""></a>
-							<a href="https://item.rakuten.co.jp/k-benkyo/4987210317066/">
-								<p>【第(2)類医薬品】雲仙錠 190錠</p>
-							</a>
-						</li>
-						<li class="sm5 org">
-							<a
-								href="https://search.rakuten.co.jp/search/mall/%E9%A0%BB%E5%B0%BF+%E8%96%AC+%E5%85%AB%E5%91%B3%E5%9C%B0%E9%BB%84%E4%B8%B8+%E5%8B%89%E5%BC%B7%E5%A0%82+2%EF%BC%8E5g+24%E5%8C%85/?sid=284077"><img
-									src="https://image.rakuten.co.jp/k-benkyo/cabinet/shohin202/4987334221874.jpg"
-									alt=""></a>
-							<a
-								href="https://search.rakuten.co.jp/search/mall/%E9%A0%BB%E5%B0%BF+%E8%96%AC+%E5%85%AB%E5%91%B3%E5%9C%B0%E9%BB%84%E4%B8%B8+%E5%8B%89%E5%BC%B7%E5%A0%82+2%EF%BC%8E5g+24%E5%8C%85/?sid=284077">
-								<p>【第2類医薬品】八味地黄丸エキス顆粒 2.5g×24包</p>
+							<a href="https://search.rakuten.co.jp/search/mall/%E9%98%B2%E5%B7%B2%E9%BB%84%E8%80%86%E6%B9%AF%E3%82%A8%E3%82%AD%E3%82%B9%E9%8C%A0/?sid=284077"><img
+								class="lazyload" data-src="https://image.rakuten.co.jp/benkyo/cabinet/kihonum/4987334201654.jpg" alt=""></a>
+							<a href="https://search.rakuten.co.jp/search/mall/%E9%98%B2%E5%B7%B2%E9%BB%84%E8%80%86%E6%B9%AF%E3%82%A8%E3%82%AD%E3%82%B9%E9%8C%A0/?sid=284077">
+								<p>【第2類医薬品】 防已黄耆湯エキス錠 180錠</p>
 							</a>
 						</li>
 						<!--<li class="sm5 org">
-							<a href="https://search.rakuten.co.jp/search/mall/4535653001273/?sid=284077"><img src="https://image.rakuten.co.jp/k-benkyo/cabinet/04394394/07806793/4535653001273.jpg" alt=""></a>
+							<a href="https://search.rakuten.co.jp/search/mall/4535653001273/?sid=284077"><img src="https://shop.r10s.jp/benkyo/cabinet/04412013/07759855/4535653001273.jpg" alt=""></a>
 							<a href="https://search.rakuten.co.jp/search/mall/4535653001273/?sid=284077">
 								<p>【第2類医薬品】ヒフールN点鼻薬 30mL</p>
 							</a>
@@ -563,148 +513,92 @@
 					</div>
 					<ul class="flexbox items">
 						<li class="sm3 borders org">
-							<a href="https://item.rakuten.co.jp/k-benkyo/4580392000643/"><img
-									src="images/imgrc0079669891.jpg" alt=""></a>
-							<a
-								href="https://item.rakuten.co.jp/k-benkyo/4580392000643/"><span>ハトムギ美容ジェルEX</span></a><br>
-							<p class="pc">自宅で簡単！気になるポツポツに。</p>
+							<a href="https://item.rakuten.co.jp/k-benkyo/4580392000834/"><img class="lazyload" data-src="images/heparin_s_new.jpg" alt=""></a>
+							<a href="https://item.rakuten.co.jp/k-benkyo/4580392000834/"><span>ヘパリンオールインα</span></a><br>
+							<p class="pc">圧倒的な保湿力！気になる乾燥に。</p>
 						</li>
 						<li class="sm3 borders org">
-							<a href="https://item.rakuten.co.jp/k-benkyo/4580392000254/"><img
-									src="images/imgrc0075166779.jpg" alt=""></a>
+							<a href="https://search.rakuten.co.jp/search/mall/4535653001532/?sid=284077"><img class="lazyload" data-src="images/heparoid01_s.jpg" alt=""></a>
+							<a href="hhttps://search.rakuten.co.jp/search/mall/4535653001532/?sid=284077">><span>ヘパロイドローション</span></a><br>
+							<p class="pc">伸びの良いローションタイプ！</p>
+						</li>
+						<li class="sm3 borders org">
+							<a href="https://search.rakuten.co.jp/search/mall/4535653001006/?sid=284077"><img class="lazyload" data-src="images/kilkamin.jpg" alt=""></a>
+							<a href="https://search.rakuten.co.jp/search/mall/4535653001006/?sid=284077"><span>キルカミンHPクリーム</span></a><br>
+							<p class="pc">ヘパリン類似物質配合のクリーム。</p>
+						</li>
+						<li class="sm3 borders org">
+							<a href="https://item.rakuten.co.jp/k-benkyo/4535653002911/"><img class="lazyload" data-src="images/hiful-u_s.jpg" alt=""></a>
+							<a href="https://item.rakuten.co.jp/k-benkyo/4535653002911/"><span>ヒフールU10 クリーム</span></a><br>
+							<p class="pc">かかと・足裏の水虫に。</p>
+						</li>
+						<li class="sm3 borders org">
+							<a href="https://item.rakuten.co.jp/k-benkyo/4580392000254/"><img class="lazyload" data-src="images/imgrc0075166779.jpg" alt=""></a>
 							<a href="https://item.rakuten.co.jp/k-benkyo/4580392000254/"><span>デオドラントクリーム</span></a><br>
 							<p class="pc">クリームタイプのデオドラント。</p>
 						</li>
 						<li class="sm3 borders org">
-							<a href="https://item.rakuten.co.jp/k-benkyo/4935583205084/"><img
-									src="images/imgrc0076284611.jpg" alt=""></a>
-							<a href="https://item.rakuten.co.jp/k-benkyo/4935583205084/"><span>デオドラントソープ</span></a><br>
-							<p class="pc">足やカラダのニオイすっきり！</p>
-						</li>
-						<li class="sm3 borders org">
-							<a href="https://search.rakuten.co.jp/search/mall/4589993690840/?sid=284077"><img
-									src="images/20210421_01.jpg" alt=""></a>
-							<a
-								href="https://search.rakuten.co.jp/search/mall/4589993690840/?sid=284077"><span>ミネラート</span></a><br>
+							<a href="https://search.rakuten.co.jp/search/mall/4589993690840/?sid=284077"><img class="lazyload" data-src="images/mine_s_new.jpg" alt=""></a>
+							<a href="https://search.rakuten.co.jp/search/mall/4589993690840/?sid=284077"><span>ミネラート</span></a><br>
 							<p class="pc">お腹に刺激の少ない便秘薬。</p>
 						</li>
 						<li class="sm3 borders org">
-							<a href="https://search.rakuten.co.jp/search/mall/4909720522075/?sid=284077"><img
-									src="images/4909720522075-top1.jpg" alt=""></a>
-							<a
-								href="https://search.rakuten.co.jp/search/mall/4909720522075/?sid=284077"><span>アリグロナーゼG</span></a><br>
+							<a href="https://item.rakuten.co.jp/k-benkyo/4909720522075/"><img class="lazyload" data-src="images/4909720522075-top1.jpg" alt=""></a>
+							<a href="https://item.rakuten.co.jp/k-benkyo/4909720522075/"><span>アリグロナーゼG</span></a><br>
 							<p class="pc">胃腸障害時の滋養強壮・栄養補給に。</p>
 						</li>
 						<li class="sm3 borders org">
-							<a href="https://search.rakuten.co.jp/search/mall/yo+4987334221881/?sid=284077"><img
-									src="images/imgrc0080004871.jpg" alt=""></a>
-							<a
-								href="https://search.rakuten.co.jp/search/mall/yo+4987334221881/?sid=284077"><span>芍薬甘草湯</span></a><br>
-							<p class="pc">足のつり、筋肉の痙攣、腰痛などに。</p>
+							<a href="https://search.rakuten.co.jp/search/mall/4987239172813/?sid=284077"><img class="lazyload" data-src="images/imgrc4987239172813.jpg" alt=""></a>
+							<a href="https://search.rakuten.co.jp/search/mall/4987239172813/?sid=284077"><span>ヘルビタS</span></a><br>
+							<p class="pc">肩こり・腰痛・手足のしびれに。</p>
 						</li>
 						<li class="sm3 borders org">
-							<a href="https://search.rakuten.co.jp/search/mall/yo-4580392000/?sid=284077"><img
-									src="images/5-ala_375x260.jpg" alt=""></a>
-							<a
-								href="https://search.rakuten.co.jp/search/mall/yo-4580392000/?sid=284077"><span>5-ALA+乳酸菌サプリ</span></a><br>
-							<p class="pc">力強い明日のために。話題の5-ALA</p>
-						</li>
-						<li class="sm3 borders org">
-							<a href="https://item.rakuten.co.jp/k-benkyo/4580392000667mail/"><img
-									src="images/fukurahagi375x260.jpg" alt=""></a>
-							<a
-								href="https://item.rakuten.co.jp/k-benkyo/4580392000667mail/"><span>ふくらはぎサポーター</span></a><br>
-							<p class="pc">健康・美容・スポーツのふくらはぎケアに。</p>
-						</li>
-						<li class="sm3 borders org">
-							<a href="https://item.rakuten.co.jp/k-benkyo/4580392000681mail/"><img
-									src="images/imgrc0076283278.jpg" alt=""></a>
+							<a href="https://item.rakuten.co.jp/k-benkyo/4580392000681mail/"><img class="lazyload" data-src="images/imgrc0076283278.jpg" alt=""></a>
 							<a href="https://item.rakuten.co.jp/k-benkyo/4580392000681mail/"><span>鼻ぽん</span></a><br>
 							<p class="pc">足鼻血・鼻水のお手当てに。</p>
 						</li>
 					</ul>
 
 					<div class="title3 clearfix">
-						<h3>勉強堂　健康サプリシリーズ</h3>
+						<h3>人気の健康サプリメント</h3>
 					</div>
 					<ul class="flexbox items wrapping">
 						<li class="sm5 grid">
+							<a href="https://item.rakuten.co.jp/k-benkyo/4580392000933mail/"><img
+								class="lazyload" data-src="https://shop.r10s.jp/benkyo/cabinet/lp/4580392000933/4580392000933img02.jpg"
+									alt=""></a>
+							<a href="https://item.rakuten.co.jp/k-benkyo/4580392000933mail/">
+								<p>NMN7500 30粒入</p>
+							</a>
+						</li>
+						<li class="sm5 grid">
 							<a href="https://item.rakuten.co.jp/k-benkyo/4580392000261/"><img
-									src="https://image.rakuten.co.jp/k-benkyo/cabinet/yupake1/4580392000261.jpg"
+								class="lazyload" data-src="https://image.rakuten.co.jp/k-benkyo/cabinet/yupake1/4580392000261.jpg"
 									alt=""></a>
 							<a href="https://item.rakuten.co.jp/k-benkyo/4580392000261/">
 								<p>ラクトフェリン粒 360粒入</p>
 							</a>
 						</li>
 						<li class="sm5 grid">
-							<a href="https://item.rakuten.co.jp/k-benkyo/4580392000810mail/"><img
-									src="https://image.rakuten.co.jp/k-benkyo/cabinet/04394394/4580392000810/4580392000810.jpg"
+							<a href="https://item.rakuten.co.jp/k-benkyo/4580392000544/"><img
+								class="lazyload" data-src="https://image.rakuten.co.jp/benkyo/cabinet/lp/4580392000544/4580392000544img2.jpg"
 									alt=""></a>
-							<a href="https://item.rakuten.co.jp/k-benkyo/4580392000810mail/">
-								<p>L-リジンサプリ 180粒</p>
+							<a href="https://item.rakuten.co.jp/k-benkyo/4580392000544/">
+								<p>チェストツリー粒 90粒</p>
 							</a>
 						</li>
 						<li class="sm5 grid">
 							<a href="https://item.rakuten.co.jp/k-benkyo/4580392000711mail/"><img
-									src="https://image.rakuten.co.jp/k-benkyo/cabinet/yupake3/4580392000711mail.jpg"
+								class="lazyload" data-src="https://image.rakuten.co.jp/k-benkyo/cabinet/yupake3/4580392000711mail.jpg"
 									alt=""></a>
 							<a href="https://item.rakuten.co.jp/k-benkyo/4580392000711mail/">
 								<p>カリウム ＋ クエン酸 サプリメント 270粒</p>
 							</a>
 						</li>
 						<li class="sm5 grid">
-							<a href="https://item.rakuten.co.jp/k-benkyo/10124066/"><img
-									src="https://image.rakuten.co.jp/k-benkyo/cabinet/yupake1/10124066.jpg" alt=""></a>
-							<a href="https://item.rakuten.co.jp/k-benkyo/10124066/">
-								<p>L-シトルリン800　120粒</p>
-							</a>
-						</li>
-						<li class="sm5 grid">
-							<a href="https://item.rakuten.co.jp/k-benkyo/4580392000131/"><img
-									src="https://image.rakuten.co.jp/k-benkyo/cabinet/fix/4580392000131fix.jpg"
-									alt=""></a>
-							<a href="https://item.rakuten.co.jp/k-benkyo/4580392000131/">
-								<p>青みかん ヘスペリジン 120粒</p>
-							</a>
-						</li>
-						<li class="sm5 grid">
-							<a href="https://item.rakuten.co.jp/k-benkyo/4580392000490/"><img
-									src="https://image.rakuten.co.jp/k-benkyo/cabinet/yupake3/4580392000490.jpg"
-									alt=""></a>
-							<a href="https://item.rakuten.co.jp/k-benkyo/4580392000490/">
-								<p>アンセリン 90粒</p>
-							</a>
-						</li>
-
-						<li class="sm5 grid">
-							<a href="https://item.rakuten.co.jp/k-benkyo/4580638150279mail/"><img
-									src="https://image.rakuten.co.jp/k-benkyo/cabinet/lp/4589993690192/4589993690192.jpg"
-									alt=""></a>
-							<a href="https://item.rakuten.co.jp/k-benkyo/4580638150279mail/">
-								<p>ブロッコリースプラウト粒 60粒</p>
-							</a>
-						</li>
-						<li class="sm5 grid">
-							<a href="https://item.rakuten.co.jp/k-benkyo/4580392000124/"><img
-									src="https://image.rakuten.co.jp/k-benkyo/cabinet/yupake1/4580392000124.jpg"
-									alt=""></a>
-							<a href="https://item.rakuten.co.jp/k-benkyo/4580392000124/">
-								<p>デオドラントサプリ 120粒</p>
-							</a>
-						</li>
-						<li class="sm5 grid">
-							<a href="https://item.rakuten.co.jp/k-benkyo/4987334737139mail/"><img
-									src="https://image.rakuten.co.jp/k-benkyo/cabinet/shohin125/4987334737139mail.jpg"
-									alt=""></a>
-							<a href="https://item.rakuten.co.jp/k-benkyo/4987334737139mail/">
-								<p>尿酸値が高めの方のケア習慣 10粒</p>
-							</a>
-						</li>
-						<li class="sm5 grid">
-							<a href="https://item.rakuten.co.jp/k-benkyo/10093715/"><img
-									src="https://image.rakuten.co.jp/k-benkyo/cabinet/06/10093715.jpg" alt=""></a>
-							<a href="https://item.rakuten.co.jp/k-benkyo/10093715/">
-								<p>熱汗粒 1000錠 塩タブレット</p>
+							<a href="https://item.rakuten.co.jp/k-benkyo/4580392000957/"><img class="lazyload" data-src="https://shop.r10s.jp/benkyo/cabinet/lp/4580392000957/4580392000957tmn2.jpg" alt=""></a>
+							<a href="https://item.rakuten.co.jp/k-benkyo/4580392000957/">
+								<p>クリルオイル 60粒 サプリ</p>
 							</a>
 						</li>
 					</ul>
@@ -753,9 +647,8 @@
 
 				<div class="sidenews1 pc">
 					<ul>
-						<li><a href="https://item.rakuten.co.jp/k-benkyo/c/0000005033/" target="_top">※あす楽商品を探す</a></li>
-						<li><a href="https://www.rakuten.ne.jp/gold/k-benkyo/self-medication2.html"
-								target="_blank">※セルフメディケーション税制</a></li>
+						<!--<li><a href="https://item.rakuten.co.jp/k-benkyo/c/0000005033/" target="_top">※あす楽商品を探す</a></li>-->
+						<li><a href="https://www.rakuten.ne.jp/gold/k-benkyo/self-medication2.html" target="_blank">※セルフメディケーション税制</a></li>
 					</ul>
 				</div>
 
@@ -776,6 +669,8 @@
 							<!--<img src="https://image.rakuten.co.jp/k-benkyo/cabinet/02640991/06177301/imgrc0077753885.gif" alt="くすりの勉強堂LINE">-->
 							</a>
 						</li>
+
+						<li style="margin-bottom:10px;"><img src="https://image.rakuten.co.jp/benkyo/cabinet/02562713/10717192/x_banner.jpg" alt="勉強堂公式X"></li>
 
 						<li>
 							<!--<a href="https://link.rakuten.co.jp/1/068/392/" target="_blank">
@@ -1089,9 +984,6 @@
 				<tr>
 					<th>勤務する薬剤師</th>
 					<td>
-						山口 明人（薬剤師/薬剤師名簿登録番号:第100747号/登録先都道府県:福島県）<br>
-						業務内容…OTC販売　勤務時間　9:00～15:00<br><br>
-
 						内藤 篤子（薬剤師/薬剤師名簿登録番号:第100741号/登録先都道府県:福島県）<br>
 						業務内容…OTC販売　勤務時間　9:00～15:00<br><br>
 
@@ -1403,7 +1295,7 @@
 						福島県岩瀬郡鏡石町高久田115<br>
 						TEL:0248-94-8718<br>
 						FAX:0248-94-8719<br>
-						mail:benkyo@shop.rakuten.co.jp<br>
+						mail:<a href="mailto:info@ameyokoyaku.co.jp" style="text-decoration: none; color: #ffffff;">info@ameyokoyaku.co.jp</a><br>
 					</p>
 					<br class="sp">
 
@@ -1445,6 +1337,7 @@
 				arrows: true, //左右の矢印を出す
 				buttons: true, //ナビゲーションボタンを出す
 				aspectRatio: 2, //スライドのアスペクト比
+				keyboard: false,
 				//forceSize: 'fullWindow', //ウィンドウ内全画面表示
 				slideDistance: 0, //スライド同士の距離
 				visibleSize: '100%', //前後のスライドを表示
@@ -1476,7 +1369,7 @@
 			});
 		});
 	</script>
-
+<script>lazyload();</script>
 </body>
 
 </html>
